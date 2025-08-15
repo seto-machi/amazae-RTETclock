@@ -1,0 +1,45 @@
+body {
+    font-family: "Hachi Maru Pop", cursive;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+.clickbox {
+    background: center / cover no-repeat url(img/08131.jpg);
+    width: 250px;
+    height: 300px;
+    position: relative;
+}
+
+.rt,
+.et {
+    left: 45px;
+    position: absolute;
+
+    span {
+        font-size: 30pt;
+    }
+
+    em {
+        font-style: normal;
+    }
+}
+
+.rt {
+    top: 30px;
+
+    em {
+        margin-left: 5px;
+        font-size: 20pt;
+    }
+}
+
+.et {
+    top: 80px;
+
+    em {
+        margin-right: 5px;
+        font-size: 18px;
+    }
+}
